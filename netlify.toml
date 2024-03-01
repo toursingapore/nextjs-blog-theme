@@ -1,5 +1,5 @@
 [build]
-  command = "npm run build && echo 'User-agent: *\nAllow: /' > dist/robots.txt"
+  command = "npm run build"
   publish = ".next"
 
   [build.environment]
