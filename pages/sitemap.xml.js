@@ -1,6 +1,6 @@
 // pages/sitemap.xml.js
 
-import { getSortedPostsData } from "../posts";
+import { getSortedPostsData } from "/posts";
 
 const URL = "https://toursingapore.netlify.app";
 
