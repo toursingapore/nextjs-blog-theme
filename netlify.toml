@@ -1,6 +1,6 @@
 [build]
   command = "npm run build"
-  publish = ".next"
+  publish = "/opt/build/repo"
 
   [build.environment]
     # cache Cypress binary in local "node_modules" folder
@@ -14,8 +14,3 @@
   [plugins.inputs]
       record = true
       group = "Testing Built Site"
-
-[[plugins]]
-  package = "@netlify/plugin-sitemap"
-    [plugins.inputs]
-    buildDir = "/opt/build/repo"      
