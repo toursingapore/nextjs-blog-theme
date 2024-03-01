@@ -15,6 +15,7 @@
       record = true
       group = "Testing Built Site"
 
+[[plugins]]
   package = "@netlify/plugin-sitemap"
     [plugins.inputs]
     buildDir = "/opt/build/repo"      
